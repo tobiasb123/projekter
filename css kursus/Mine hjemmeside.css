@@ -1,0 +1,63 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  font-size: 70px;
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+#div2 {
+  background-image: url(billeder/pow.jpg);
+  background-position: top;
+  background-repeat: repeat-x;
+}
+
+#div3 {
+  color: white;
+  background-image: url(billeder/powv3.jpg);
+}
+
+p {
+  font-size: 40px;
+}
+
+.Login {
+  width: 300px;
+  height: 650px;
+  border: solid gray;
+  color: white;
+  background-image: url(billeder/powv2.jpg);
+  text-align:center;
+}
+
+.h1 {
+  text-align: center;
+  color: black;
+}
+
+.p1 {
+  text-align: center;
+  color: white;
+}
+
+table {
+  width: 300px;
+}
+
+table, th, td {
+  border: 2px solid black;
+  text-align: left;
+  background-color: gray;
+}
+
+th {
+  height: 25px;
+  padding: 5px;
+}
+
+td {
+  height: 10px;
+  padding: 5px;
+}

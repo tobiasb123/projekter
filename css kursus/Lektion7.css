@@ -1,0 +1,36 @@
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color:red;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: black;
+}
+
+
+
+
+
+a.linkstyling2:link, a.linkstyling2:visited:link {
+  text-decoration: none;
+  font-size: 22px;
+  color: blue;
+}
+
+
+a.linkstyling2:hover {
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+a.linkstyling2:active {
+  color: black;
+}

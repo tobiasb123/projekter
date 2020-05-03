@@ -1,0 +1,44 @@
+#div1 {
+  width: 200px;
+  height:auto;
+  border-style: solid;
+}
+p.texst1 {
+  font-size: 1.5em;
+  font-family: "times new roman", times, serif;
+  font-style: italic;
+}
+
+p.texst2 {
+  font-size: 1.5em;
+  font-family: times, serif;
+  font-weight: bold;
+}
+
+p.texst3 {
+  color:#ddd;
+}
+
+p.texst4 {
+color:red;
+}
+
+p.texst5 {
+  text-align: right;
+}
+
+p.texst6 {
+text-decoration: none;
+}
+
+p.texst7 {
+text-transform: capitalize;
+}
+
+p.texst8 {
+
+}
+
+p.texst9 {
+
+}

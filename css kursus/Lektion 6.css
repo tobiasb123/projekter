@@ -1,0 +1,32 @@
+body {
+  background-color: gray;
+  background-image: url(billeder/pow.jpg);
+  background-repeat: no-repeat;
+  background-position: 10% 20%;
+  background-attachment: fixed;
+}
+
+
+
+#div1 {
+  width: 500px;
+  height: 500px;
+  border: solid;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(billeder/500x500px.jpg);
+}
+
+#div2 {
+  width: 500px;
+  height: 500px;
+  border: solid;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: red;
+}
+
+
+h1 {
+  background-color: green;
+}

@@ -1,0 +1,17 @@
+h1 {
+  font-size: 50px;
+  color: #FF0000;
+  font-family: sans-serif;
+}
+h1#stortexst {
+  font-size: 80px;
+}
+p.citat {
+  font-size: 12px;
+  font-style: italic;
+}
+
+
+.gul {
+  color:yellow;
+}

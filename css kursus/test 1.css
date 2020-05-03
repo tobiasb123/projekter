@@ -1,0 +1,12 @@
+h1 {
+  font-size: 70px;
+  color: #FF0000;
+  font-family: sans-serif;
+}
+
+
+h2, h3 {
+  font-size: 30px;
+  color: #0000FF;
+  font-family: sans-serif;
+}

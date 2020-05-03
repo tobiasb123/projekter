@@ -1,0 +1,21 @@
+
+ul.unordered1 {
+ list-style-type: square;
+ background-color: green;
+}
+
+li.punkt {
+  background-color: red;
+}
+
+li {
+  text-decoration: underline;
+}
+
+ul.unordered2 {
+ list-style-image: url(../billeder/Hjemmesideiconny.jpg);
+}
+
+ol.ordered {
+list-style-type: upper-roman;
+}

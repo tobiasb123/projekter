@@ -1,0 +1,23 @@
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+table {
+  width: 200px;
+}
+
+th {
+  height: 30px;
+  padding: 5px;
+  background-color: green;
+}
+td {
+  height: 15px;
+  padding: 5px;
+}
+
+tr.gray {
+  background-color: #ddd;
+}
