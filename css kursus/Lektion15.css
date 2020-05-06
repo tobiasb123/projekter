@@ -1,0 +1,40 @@
+.div1 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.div2 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+.div3 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+/* Decendant selector */
+div p {
+  font-size: 30px;
+}
+
+div p > span {
+  font-size: 50px;
+}
+
+
+/* Child selector */
+div > p {
+  font-size: 30px;
+  color: blue;
+}
+
+.div2 > p {
+  text-decoration: underline;
+}
+
+div span > p {
+  font-size: 70px;
+}
