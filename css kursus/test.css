@@ -1,18 +1,19 @@
 body {
-  background-color: #000000;
+  background-color: black;
 }
 
 #div1 {
-  background-image: url(billeder/powv3.jpg);
+  background-image: url(billeder/earthasweknowit.jpg);
 }
 
 #div2 {
-  background-color: black
+  background-image: url(billeder/earthasweknowit.jpg);
 }
 
 h1 {
   text-align: center;
   font-size: 70px;
+  background-color: black
 }
 
 h2 {
@@ -32,22 +33,22 @@ h1, h2, h3 {
 
 .test1 {
   width: 200px;
-  height: 400px;
-  border: 10px solid black;
+  height: 600px;
+  border: 5px solid darkblue;
   display: inline;
   float: left;
   text-align: center;
   color: red;
-  background-color: gray;
+  background-image: url(billeder/powv5.jpg);
 }
 
 .test2 {
   width: 187px;
   height: 330px;
-  border: 10px solid black;
+  border: 5px solid darkblue;
   float: left;
   display: inline;
-  background-color: gray;
+  background-image: url(billeder/powv5.jpg);
   color: red;
   padding: 10px;
 }
@@ -74,4 +75,90 @@ input {
 
 textarea {
   border: 2px solid black;
+}
+
+.div4 {
+  width: 935px;
+  height: 500px;
+  float: right;
+  display: inline;
+  background-image: url(billeder/powv6.jpg);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+}
+
+
+  a:link{
+    text-decoration: none;
+    color: red;
+  }
+
+  a:visited{
+    color:red;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  a:active {
+    color: black;
+  }
+}
+
+#navMenu {
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+
+#navMenu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 30px;
+}
+
+#navMenu li {
+float: left;
+margin: 0;
+padding: 0;
+position: relative;
+background-image: url(billeder/earthasweknowit.jpg);
+}
+
+#navMenu ul li a {
+  width: 100px;
+  height: 30px;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+
+#navMenu ul ul {
+position: absolute;
+top: 30px;
+visibility: hidden;
+}
+
+#navMenu ul li:hover ul {
+  visibility: visible;
+}
+
+#navMenu a:hover {
+  background-color: #09f;
+  color: #000;
+}
+
+#navMenu ul li ul li a:hover {
+  background-color: #0ebfe9;
+}
+
+.clearfloat {
+clear: both;
 }
