@@ -33,7 +33,7 @@ h1, h2, h3 {
 
 .test1 {
   width: 200px;
-  height: 500px;
+  height: 600px;
   border: 5px solid darkblue;
   display: inline;
   float: left;
@@ -106,4 +106,59 @@ textarea {
   a:active {
     color: black;
   }
+}
+
+#navMenu {
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+
+#navMenu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 30px;
+}
+
+#navMenu li {
+float: left;
+margin: 0;
+padding: 0;
+position: relative;
+background-image: url(billeder/earthasweknowit.jpg);
+}
+
+#navMenu ul li a {
+  width: 100px;
+  height: 30px;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+
+#navMenu ul ul {
+position: absolute;
+top: 30px;
+visibility: hidden;
+}
+
+#navMenu ul li:hover ul {
+  visibility: visible;
+}
+
+#navMenu a:hover {
+  background-color: #09f;
+  color: #000;
+}
+
+#navMenu ul li ul li a:hover {
+  background-color: #0ebfe9;
+}
+
+.clearfloat {
+clear: both;
 }
