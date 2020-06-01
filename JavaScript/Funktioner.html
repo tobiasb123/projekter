@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+  </head>
+  <body>
+     <script type="text/javascript">
+       function WriteHeader(text, alertText) {
+         document.write('<h1>' + text + '</h1><br/>');
+         alert(alertText);
+       }
+
+        function addTwo(x, y) {
+          var result = x + y;
+          return result;
+        }
+
+      var x = 10;
+      var y = 12;
+
+      var result = addTwo(x, y);
+      WriteHeader(result, "10 + 12")
+
+
+     </script>
+  </body>
+</html>
+
+<!--
+FUNKTION
+
+function WriterHeader(text, alertText) {
+  document.write('<h1>' + text + '</h1><br/>');
+  alert(alertText);
+}
+
+
+WriterHeader("tekst 1", "Alert 1");
+WriterHeader("tekst 2", "Alert 2");
+WriterHeader("tekst 3", "Alert 3");
+-->
